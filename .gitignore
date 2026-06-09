@@ -1,3 +1,17 @@
+# Data files
+*.csv
+*.csv.gz
+*.xlsx
+*.pdf
+*.png
+
+# Data directories
+data/
+
+# R History files
+.Rhistory
+.Rapp.history
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
