@@ -1,17 +1,3 @@
-# Data files
-*.csv
-*.csv.gz
-*.xlsx
-*.pdf
-*.png
-
-# Data directories
-data/
-
-# R History files
-.Rhistory
-.Rapp.history
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -19,6 +5,22 @@ __pycache__/
 
 # C extensions
 *.so
+
+# Data directories
+data/
+
+# Data files
+*.vcf*
+*.vcf.gz*
+*.csv
+*.csv.gz
+*.xlsx
+*.pdf
+*.png
+
+# R History files
+.Rhistory
+.Rapp.history
 
 # Distribution / packaging
 .Python
@@ -68,6 +70,10 @@ cover/
 # Translations
 *.mo
 *.pot
+
+# Agent stuff:
+.claude/
+.codex
 
 # Django stuff:
 *.log
